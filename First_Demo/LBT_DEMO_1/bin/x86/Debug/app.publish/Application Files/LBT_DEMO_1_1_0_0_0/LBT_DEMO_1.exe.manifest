@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LBT_DEMO_1.exe" version="1.0.0.0" publicKeyToken="65cbacf346c45a97" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LBT_DEMO_1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LBT_DEMO_1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBT_DEMO_1.exe" size="1248256">
+      <assemblyIdentity name="LBT_DEMO_1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4V/lryBXb/hjVCphsHn4GDg266w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LBT_DEMO_1.exe.config" size="1642">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zBJjfZgUxi0eRXczvysHvBUEqXE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MYPC\srbod_000" issuerKeyHash="6e509c8741d363eb5676073c4388e9a73e6818c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Y+RXiqvUM2qt+aVf1pnRRJyjxlI=</DigestValue></Reference></SignedInfo><SignatureValue>Zjzd6HZvYtvZGIQEoweoJEbda1Zt3u/5y2EAtJIh3iFxBw1fqGIjZGpupQ3N8hDSzXpeWT17up7KJLL/xkNKctYY7gNVcNgXVnlSGrzond5m0t5+/uQvFYsvrT0r9gokGjfp+XcUPK+izfmK4XcDuh8l7WYjNveeubthEuQg0zU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lKF4Yn+fQvhLuXhlOPDhgsMe3Mk+nTTXCwGTb7GTbX7iL6LtvpythtCS7pv9JLuz9UsaBoQClQaH1mRxTi71a9j0qA/g77h2vXBpmAxTgAFV8JTCLCye1nSBuLcP/ObfQBfk6RZBMNVJWyOgR1SR4hnpZO6M7ou1rw4t8sBZGzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="52c6a39c44d199d65fa5f9ad6a33d4ab8a57e463" Description="" Url=""><as:assemblyIdentity name="LBT_DEMO_1.exe" version="1.0.0.0" publicKeyToken="65cbacf346c45a97" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MYPC\srbod_000</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CdHp9rRIZQNwHfZdzN7PAWJcgDg=</DigestValue></Reference></SignedInfo><SignatureValue>O0jwRlk25XeVFgOmZq0kQcBptBuhyqyvokPB+cyfVqfptjQ2KCWVRaoM8OT1F+Tl0+ZkCTkLX9YJKeF3tOKBJNt8bhKv0c18Ac85r/vcomMx7Fhi+Ei1zQwnXxyTtNynqIJHfdDF6bFo5B9xHi4Mxs+FKHmKLpgXCapxsCnk3EI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lKF4Yn+fQvhLuXhlOPDhgsMe3Mk+nTTXCwGTb7GTbX7iL6LtvpythtCS7pv9JLuz9UsaBoQClQaH1mRxTi71a9j0qA/g77h2vXBpmAxTgAFV8JTCLCye1nSBuLcP/ObfQBfk6RZBMNVJWyOgR1SR4hnpZO6M7ou1rw4t8sBZGzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQHT5AF8fEEbNIeo4sTsMJPTANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwATQBZAFAAQwBcAHMAcgBiAG8AZABfADAAMAAwMB4XDTE0MDMyNzEyNTE0OFoXDTE1MDMyNzE4NTE0OFowJzElMCMGA1UEAx4cAE0AWQBQAEMAXABzAHIAYgBvAGQAXwAwADAAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlKF4Yn+fQvhLuXhlOPDhgsMe3Mk+nTTXCwGTb7GTbX7iL6LtvpythtCS7pv9JLuz9UsaBoQClQaH1mRxTi71a9j0qA/g77h2vXBpmAxTgAFV8JTCLCye1nSBuLcP/ObfQBfk6RZBMNVJWyOgR1SR4hnpZO6M7ou1rw4t8sBZGzkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBtJ6KijNMSGK6BCXnslMQ6PYKHEP74EWpndpREFNUUjgLdTPudSDq92LABJRolSJeFEUNr+ps8WcC519l9Huh3fGY113jy7sACXRBQlxnGg6VNgSpS8G2sMkgB+KBWZ2DmSXePX/nedH6YYeGt6/RTbQpompoMtVnjH0DE5O8d8w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
